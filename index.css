@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+.grid{
+    display: grid;
+}
+.nav_list{
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1em;
+    
+}
+a{
+    text-decoration: none;
+}
