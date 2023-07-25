@@ -24,7 +24,7 @@
                 <li><a href="#projects" class="nav-link projects">Projects</a></li>
                 <li><a href="#contact" class="nav-link contact">Contact</a></li>
                 <li><a id="resume-button-1" download class="nav-link resume" target="_blank"
-                        href="./assets/pdf/Abhinav_Resume.pdf">Resume</a></li>
+                        href="./assets/pdf/Abhinav_Resume.pdf" onclick="resume()">Resume</a></li>
             </ul>
 
         </div>
@@ -168,4 +168,8 @@
 
 <script>
     new GitHubCalendar(".calendar", "Abhinav068");
+
+    function resume() {
+        window.open("./assets/pdf/Abhinav_Resume.pdf")
+    }
 </script>
