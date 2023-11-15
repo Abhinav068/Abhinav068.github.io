@@ -550,6 +550,13 @@ color: rgb(63, 160, 63);
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .footer-social{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-social>*{
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 368px) {
   #about{
